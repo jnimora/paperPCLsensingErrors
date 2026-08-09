@@ -1,0 +1,15 @@
+Threads.nthreads() = 8
+Nq = 14
+Nα = 14
+Nκ = 14
+Nβ = 11
+Nx = 121
+Nu = 121
+ε = 1.0e-8
+endpoint_dense = true
+chunk_size = 512
+q range = [0.05, 0.95]
+α range = [0.1, 0.9]
+κ range = [0.05, 0.95]
+parameter tuples = 30184
+total g_metric2 evaluations = 441923944

@@ -1,0 +1,47 @@
+\RequirePackage{luatex85}
+\documentclass[tikz]{standalone}
+% Default preamble
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{groupplots}
+\usepgfplotslibrary{polar}
+\usepgfplotslibrary{smithchart}
+\usepgfplotslibrary{statistics}
+\usepgfplotslibrary{dateplot}
+\usepgfplotslibrary{ternary}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width={11cm}, height={7cm}, xlabel={$t$}, ylabel={$\Gamma_t(x,z)$}, ymin={0}, ymax={1}, xmin={0}, xmax={25}, xtick={{0,5,10,15,20,25}}, ytick={{0,1}}, tick align={outside}, scaled y ticks={false}]
+    \addplot[mark={*}, mark size={1.6pt}, line width={0.5pt}]
+        coordinates {
+            (0,1.0)
+            (1,1.0)
+            (2,1.0)
+            (3,1.0)
+            (4,0.5802067312529106)
+            (5,0.5802067312529106)
+            (6,0.3643154619021887)
+            (7,0.3643154619021887)
+            (8,0.3643154619021887)
+            (9,0.21217729800057958)
+            (10,0.21217729800057958)
+            (11,0.13332661483947825)
+            (12,0.13332661483947825)
+            (13,0.13332661483947825)
+            (14,0.0776562323098432)
+            (15,0.0776562323098432)
+            (16,0.04879797042855964)
+            (17,0.04879797042855964)
+            (18,0.04879797042855964)
+            (19,0.028422489107292812)
+            (20,0.028422489107292812)
+            (21,0.017860257937827903)
+            (22,0.017860257937827903)
+            (23,0.017860257937827903)
+            (24,0.010402748439678481)
+            (25,0.010402748439678481)
+        }
+        ;
+\end{axis}
+\end{tikzpicture}
+\end{document}

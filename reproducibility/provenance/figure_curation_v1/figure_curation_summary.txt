@@ -1,0 +1,29 @@
+﻿paperPCLsensingErrors figure curation v1
+Generated: 2026-08-08T20:42:43.0141640+02:00
+
+Repository:
+C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors
+
+pdflatex:
+C:\Users\JNINO\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe
+
+Canonical PDF count:
+16
+
+Copied existing PDFs:
+14
+
+Compiled recovered TeX sources:
+2
+
+mp_family_q legend replacements:
+2
+
+All expected PDFs present and valid:
+true
+
+Numerical calculations rerun:
+none
+
+Git operations performed:
+none

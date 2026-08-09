@@ -1,0 +1,13 @@
+scenario_index,scenario,p01_type_A,rho_type_A,kappa_type_A,reward_type_A,p01_type_B,rho_type_B,kappa_type_B,reward_type_B,beta
+1,A_very_selfhealing_B_fragile,0.01,0.9,0.7,1.0,0.1,0.1,0.95,1.0,0.99
+2,A_mild_selfhealing_B_fragile,0.03,0.8,0.7,1.0,0.1,0.1,0.95,1.0,0.99
+3,A_balanced_B_fragile,0.05,0.7,0.7,1.0,0.1,0.1,0.95,1.0,0.99
+4,A_harder_obs_B_fragile,0.02,0.85,0.55,1.0,0.1,0.1,0.95,1.0,0.99
+5,A_very_selfhealing_B_very_fragile,0.01,0.9,0.7,1.0,0.15,0.05,0.95,1.0,0.99
+6,A_mild_selfhealing_B_very_fragile,0.03,0.8,0.7,1.0,0.15,0.05,0.95,1.0,0.99
+7,A_balanced_B_very_fragile,0.05,0.7,0.7,1.0,0.15,0.05,0.95,1.0,0.99
+8,A_harder_obs_B_very_fragile,0.02,0.85,0.55,1.0,0.15,0.05,0.95,1.0,0.99
+9,A_very_selfhealing_B_persistent_bad,0.01,0.9,0.7,1.0,0.08,0.2,0.95,1.0,0.99
+10,A_mild_selfhealing_B_persistent_bad,0.03,0.8,0.7,1.0,0.08,0.2,0.95,1.0,0.99
+11,A_balanced_B_persistent_bad,0.05,0.7,0.7,1.0,0.08,0.2,0.95,1.0,0.99
+12,A_harder_obs_B_persistent_bad,0.02,0.85,0.55,1.0,0.08,0.2,0.95,1.0,0.99

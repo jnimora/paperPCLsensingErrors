@@ -1,0 +1,41 @@
+Captured: 2026-08-08T12:57:11
+Julia VERSION: 1.12.6
+Base.active_project(): C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\Project.toml
+Threads.nthreads(): 12
+BLAS.get_num_threads(): 6
+Sys.KERNEL: NT
+Sys.ARCH: x86_64
+Sys.CPU_NAME: skylake
+DEPOT_PATH:
+  C:\Users\JNINO\.julia
+  C:\Users\JNINO\.julia\juliaup\julia-1.12.6+0.x64.w64.mingw32\local\share\julia
+  C:\Users\JNINO\.julia\juliaup\julia-1.12.6+0.x64.w64.mingw32\share\julia
+LOAD_PATH:
+  @
+  @v#.#
+  @stdlib
+
+versioninfo(verbose=true):
+Julia Version 1.12.6
+Commit 15346901f0 (2026-04-09 19:20 UTC)
+Build Info:
+  Official https://julialang.org release
+Platform Info:
+  OS: Windows (x86_64-w64-mingw32)
+      Microsoft Windows [Versi¢n 10.0.26200.8875]
+  CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz: 
+                 speed         user         nice          sys         idle          irq
+       #1-12  3192 MHz    1277700 s          0 s     237249 s   12952977 s      14005 s  
+  Memory: 15.934455871582031 GB (7313.4296875 MB free)
+  Uptime: 1.20566075e6 sec
+  Load Avg:  0.0  0.0  0.0
+  WORD_SIZE: 64
+  LLVM: libLLVM-18.1.7 (ORCJIT, skylake)
+  GC: Built with stock GC
+Threads: 12 default, 1 interactive, 12 GC (on 12 virtual cores)
+Environment:
+  HOMEDRIVE = C:
+  HOMEPATH = \Users\JNINO
+  PATH = C:\Users\JNINO\AppData\Local\miniforge3\envs\ds;C:\Users\JNINO\AppData\Local\miniforge3\envs\ds\Library\mingw-w64\bin;C:\Users\JNINO\AppData\Local\miniforge3\envs\ds\Library\usr\bin;C:\Users\JNINO\AppData\Local\miniforge3\envs\ds\Library\bin;C:\Users\JNINO\AppData\Local\miniforge3\envs\ds\Scripts;C:\Users\JNINO\AppData\Local\miniforge3\envs\ds\bin;C:\Users\JNINO\AppData\Local\miniforge3\condabin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\Git\cmd;C:\Users\JNINO\AppData\Local\Microsoft\WindowsApps;C:\Users\JNINO\AppData\Local\GitHubDesktop\bin;C:\Users\JNINO\AppData\Local\Programs\MiKTeX\miktex\bin\x64
+  PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+  PSMODULEPATH = C:\Users\JNINO\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules

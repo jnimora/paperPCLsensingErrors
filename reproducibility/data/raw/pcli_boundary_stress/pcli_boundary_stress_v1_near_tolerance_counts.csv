@@ -1,0 +1,17 @@
+metric,tolerance,count,total,fraction
+pcli1_min_slack,1.0e-10,0,320,0.0
+pcli1_relative_slack,1.0e-10,0,320,0.0
+pcli2_min_slope_core,1.0e-10,0,320,0.0
+pcli2_min_slope_all,1.0e-10,0,320,0.0
+pcli1_min_slack,1.0e-8,0,320,0.0
+pcli1_relative_slack,1.0e-8,0,320,0.0
+pcli2_min_slope_core,1.0e-8,0,320,0.0
+pcli2_min_slope_all,1.0e-8,0,320,0.0
+pcli1_min_slack,1.0e-6,0,320,0.0
+pcli1_relative_slack,1.0e-6,0,320,0.0
+pcli2_min_slope_core,1.0e-6,0,320,0.0
+pcli2_min_slope_all,1.0e-6,0,320,0.0
+pcli1_min_slack,0.0001,6,320,0.01875
+pcli1_relative_slack,0.0001,0,320,0.0
+pcli2_min_slope_core,0.0001,0,320,0.0
+pcli2_min_slope_all,0.0001,0,320,0.0

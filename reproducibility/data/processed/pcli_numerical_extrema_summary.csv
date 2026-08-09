@@ -1,0 +1,8 @@
+experiment,metric,value,location_scope
+broad PCLI1,"minimum g(x,z)-(1-beta)",0.000260209967284708,"30,184 parameter tuples"
+broad PCLI2,"minimum forward difference, padded interval",1.3504454499102536e-10,"30,184 parameter tuples"
+broad PCLI2,"minimum forward difference, core interval",3.1174654524512846e-10,"30,184 parameter tuples"
+broad PCLI2,maximum endpoint-continuity proxy,0.000684689895745022,"30,184 parameter tuples"
+boundary stress,refined minimum PCLI1 slack,3.3383759321201512e-6,20 refined worst coarse tuples
+boundary stress,refined minimum PCLI2 core secant slope,0.0027950242207523054,20 refined worst coarse tuples
+boundary stress,refined minimum PCLI2 padded secant slope,0.0013145926875499714,20 refined worst coarse tuples

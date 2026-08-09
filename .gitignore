@@ -24,3 +24,18 @@ docs/site/
 # Manifest.toml
 .ipynb_checkpoints/
 .DS_Store
+/clean_benchmark_v4/
+/clean_benchmark_v4_inventory.csv
+/paperPCLsensingErrors_git_state.txt
+**/.ipynb_checkpoints/
+*.tmp
+/reproducibility/STAGING_NOTES.md
+/reproducibility/provenance/release_audit/
+/reproducibility/provenance/recovery_audit/
+/reproducibility/provenance/clean_benchmark_v4_inventory.csv
+/reproducibility/provenance/clean_benchmark_v4_sha256.csv
+/reproducibility/provenance/staged_tree_sha256.csv
+/reproducibility/provenance/staging_git_and_freeze_state.txt
+/reproducibility/provenance/legacy/
+/reproducibility/provenance/mac_legacy/sensingerr-checkpoint.ipynb
+/reproducibility/provenance/figure_curation_v1/*_pdflatex_console.txt

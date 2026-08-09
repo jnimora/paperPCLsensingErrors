@@ -1,0 +1,13 @@
+Julia environment capture completed.
+Captured: 2026-08-08T12:57:15
+Repository: C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors
+Output directory: C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\reproducibility\provenance\julia_environment_used
+Active project: C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\Project.toml
+Julia version: 1.12.6
+Julia threads: 12
+BLAS threads: 6
+Copied active-environment files:
+  C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\reproducibility\provenance\julia_environment_used\Project_used.toml
+  C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\reproducibility\provenance\julia_environment_used\Manifest_used.toml
+
+No package was added, removed, updated, or instantiated.

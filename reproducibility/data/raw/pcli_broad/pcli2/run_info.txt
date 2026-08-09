@@ -1,0 +1,15 @@
+Threads.nthreads() = 8
+r = 1.0
+Nq = 14
+Nα = 14
+Nκ = 14
+Nβ = 11
+Nmid = 2001
+Nside = 201
+pad_frac = 0.05
+ε = 1.0e-8
+mono_tol = 1.0e-12
+chunk_size = 512
+parameter tuples = 30184
+x evaluations per tuple (nominal) = 2403
+total m(x) evaluations (nominal) = 72532152

@@ -1,2 +1,28 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# BEGIN paperPCLsensingErrors archival-release rules
+# Text files maintained by the curated release.
+*.jl text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.cff text eol=lf
+*.tex text eol=lf
+*.ps1 text eol=crlf
+
+# Preserve archived numerical and provenance artifacts byte-for-byte.
+*.csv -text -diff
+*.pdf -text -diff
+*.ipynb -text -diff
+reproducibility/data/** -text -diff
+reproducibility/figures/** -text -diff
+reproducibility/notebooks/** -text -diff
+reproducibility/provenance/** -text -diff
+# END paperPCLsensingErrors archival-release rules
+
+# BEGIN root Julia environment byte-preservation rules
+# Keep these two files byte-identical to the captured environment.
+/Project.toml -text -diff
+/Manifest.toml -text -diff
+# END root Julia environment byte-preservation rules

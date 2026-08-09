@@ -1,0 +1,18 @@
+paperPCLsensingErrors result curation v1
+Generated: 2026-08-08T18:05:39
+Repository: C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\
+Active project: C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\Project.toml
+Julia version: 1.12.6
+Julia threads: 1
+BLAS threads: 6
+Checks: 162
+Passed: 162
+Failed: 0
+All checks passed: true
+
+Raw inputs were not modified.
+No simulation or PCLI grid was rerun.
+No Git operation was performed.
+
+Processed extrema summary:
+C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\reproducibility\data\processed\pcli_numerical_extrema_summary.csv

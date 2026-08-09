@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: If you use this software or data, please cite the archived release using the metadata in this
+  file.
+title: 'Code and data for “Restless bandits with imperfect binary feedback: PCL-indexability analysis
+  and computation”'
+version: 1.0.0
+type: software
+abstract: Julia code, numerical data, notebooks, validation records, and figures supporting the study
+  of restless bandits with binary latent states and imperfect one-sided binary feedback. The package includes
+  broad and boundary-focused PCL tests, MP-index computations, policy comparisons, tie-breaking diagnostics,
+  and canonical manuscript figures. Mixed licensing is documented in LICENSES.md.
+authors:
+- given-names: José
+  family-names: Niño-Mora
+  affiliation: Universidad Carlos III de Madrid
+  orcid: https://orcid.org/0000-0002-2172-3983
+contact:
+- given-names: José
+  family-names: Niño-Mora
+  affiliation: Universidad Carlos III de Madrid
+  email: jose.nino@uc3m.es
+  orcid: https://orcid.org/0000-0002-2172-3983
+repository-code: https://github.com/jnimora/paperPCLsensingErrors
+keywords:
+- restless bandits
+- partial observability
+- sensing errors
+- Whittle index
+- indexability
+- partial conservation laws
+- marginal productivity index
+- opportunistic spectrum access
+- reproducible research

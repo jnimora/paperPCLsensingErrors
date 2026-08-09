@@ -1,0 +1,17 @@
+﻿Canonical manuscript-figure basename changes
+
+The following source/manuscript names should be standardized:
+
+1. tildef_tildeg_vs_z_plot.pdf
+   -> tildef_tildeg_vs_z.pdf
+
+2. mp_family_q.tex / mp_family_q.pdf
+   -> mp_family_p01.tex / mp_family_p01.pdf
+
+3. mp_index_vs_q.pdf
+   -> mp_index_vs_p01.pdf
+
+The first and third changes are filename normalization only.
+For mp_family_p01, the raw legacy TeX source remains unchanged under
+figures/source/mac_legacy. The curated source changes only legend text
+from q to p_{01}; all numerical coordinates are unchanged.

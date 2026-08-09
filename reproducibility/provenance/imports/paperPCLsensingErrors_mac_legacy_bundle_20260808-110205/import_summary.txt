@@ -1,0 +1,48 @@
+﻿paperPCLsensingErrors legacy MacBook bundle import
+Imported: 2026-08-08T12:19:05.4396179+02:00
+
+Repository:
+C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors
+
+Archive:
+C:\Users\JNINO\Downloads\paperPCLsensingErrors_mac_legacy_bundle_20260808-110205.tar.gz
+
+Archive SHA-256:
+51CC3D0AE8A1A8BD4C34648C8A6C132F6FEF20DE2093B2D161F3F0DEC4922061
+
+Archive sidecar checked:
+True
+
+Archive expected SHA-256:
+51CC3D0AE8A1A8BD4C34648C8A6C132F6FEF20DE2093B2D161F3F0DEC4922061
+
+Extracted bundle root:
+C:\Users\JNINO\Documents\Archives\paperPCLsensingErrors\legacy_imports\paperPCLsensingErrors_mac_legacy_bundle_20260808-110205\paperPCLsensingErrors_mac_legacy_bundle_20260808-110205
+
+Internal bundle manifest entries:
+145
+
+Experiment validation rows:
+10
+
+Installed destinations:
+C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\reproducibility\data\raw\pcli_broad\pcli1
+C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\reproducibility\data\raw\pcli_broad\pcli2
+C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\reproducibility\provenance\mac_legacy
+C:\Users\JNINO\Documents\GitHub\paperPCLsensingErrors\reproducibility\figures\source\mac_legacy
+
+Tree-validation checks:
+broad PCLI1 raw data: files=66, bytes=10612914, pass=True
+broad PCLI2 raw data: files=70, bytes=67217432, pass=True
+legacy notebook/source provenance: files=3, bytes=1240018, pass=True
+legacy figure source: files=4, bytes=679675, pass=True
+
+Raw legacy CSV terminology:
+The column q is preserved unchanged and denotes p01.
+
+Git operations performed:
+none
+
+Git status after import:
+ M .gitignore
+?? reproducibility/

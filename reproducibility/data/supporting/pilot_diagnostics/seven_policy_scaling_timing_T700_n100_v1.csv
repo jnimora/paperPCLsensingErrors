@@ -1,0 +1,6 @@
+N,M,elapsed_seconds,seconds_per_replication,estimated_seconds_1000,all_rewards_finite,all_priorities_finite,forced_capacity_ok
+100,10,0.4314514,0.004314514,4.314514,true,true,true
+200,20,0.8053076,0.008053076,8.053075999999999,true,true,true
+400,40,1.8443848,0.018443848,18.443848,true,true,true
+800,80,3.8832073,0.038832073,38.832073,true,true,true
+1600,160,7.8252094,0.07825209400000001,78.25209400000001,true,true,true

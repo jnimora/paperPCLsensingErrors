@@ -1,0 +1,2 @@
+N,M,T,nruns,beta,beta_tail,seed,threaded,threads,elapsed_seconds,seconds_per_replication,lambda_star,conditional_lagrangian_bound,normalized_tail_upper_bound,bound_status
+100,10,700,10000,0.99,0.0008803111816824596,20260803,true,12,39.8694237,0.00398694237,0.1899999992921947,0.03321175741991447,8.803111816824597e-5,conditional on global PCL-indexability

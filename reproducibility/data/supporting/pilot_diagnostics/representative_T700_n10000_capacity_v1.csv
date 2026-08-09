@@ -1,0 +1,8 @@
+policy,label,min_active,max_active,mean_active,idle_slots,idle_slot_fraction,capacity
+mp_index,MP index,10,10,10.0,0,0.0,10
+myopic,Myopic,10,10,10.0,0,0.0,10
+lwz4,LWZ4 approximate index,10,10,10.0,0,0.0,10
+lagrangian,Standard Lagrangian,0,10,6.610772,6071949,0.8674212857142857,10
+lagrangian_forced,Forced-capacity Lagrangian,10,10,10.0,0,0.0,10
+round_robin,Round-robin,10,10,10.0,0,0.0,10
+random,Random,10,10,10.0,0,0.0,10

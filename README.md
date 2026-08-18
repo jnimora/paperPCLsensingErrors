@@ -2,7 +2,7 @@
 
 Code, data, notebooks, validation records, and manuscript figures for:
 
-> **Restless bandits with imperfect binary feedback: PCL-indexability analysis and computation**
+> **Restless bandits with one-sided binary feedback: PCL-indexability analysis and computation**
 
 Author: **José Niño-Mora**, Universidad Carlos III de Madrid<br>
 ORCID: **0000-0002-2172-3983**
@@ -10,7 +10,7 @@ ORCID: **0000-0002-2172-3983**
 ## Scientific scope
 
 The associated paper studies a partially observed restless-bandit model with
-binary latent states and imperfect one-sided binary feedback. The repository
+binary latent states and one-sided binary feedback. The repository
 implements the partial-conservation-law (PCL) calculations, marginal metrics,
 marginal-productivity (MP) index computations, numerical tests, policy
 comparisons, and figure generation used in the revision.

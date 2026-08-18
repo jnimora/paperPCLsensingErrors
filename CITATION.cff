@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: If you use this software or data, please cite the archived release using the metadata in this
   file.
-title: 'Code and data for “Restless bandits with imperfect binary feedback: PCL-indexability analysis
+title: 'Code and data for “Restless bandits with one-sided binary feedback: PCL-indexability analysis
   and computation”'
 version: 1.0.0
 type: software
 abstract: Julia code, numerical data, notebooks, validation records, and figures supporting the study
-  of restless bandits with binary latent states and imperfect one-sided binary feedback. The package includes
+  of restless bandits with binary latent states and one-sided binary feedback. The package includes
   broad and boundary-focused PCL tests, MP-index computations, policy comparisons, tie-breaking diagnostics,
   and canonical manuscript figures. Mixed licensing is documented in LICENSES.md.
 authors:

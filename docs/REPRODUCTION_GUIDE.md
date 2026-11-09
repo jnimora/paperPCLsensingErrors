@@ -149,3 +149,43 @@ Do not edit files under `reproducibility/data/raw/`. Derived tables belong
 under `reproducibility/data/processed/`. The `.gitattributes` file disables
 line-ending normalization for archived data, notebooks, figures, and
 provenance so that the recorded SHA-256 hashes remain meaningful.
+
+## Submitted revision
+
+The submitted paper uses the 16 PDFs in `reproducibility/figures/submitted/`.
+`figures.csv` gives their manuscript labels, page numbers and SHA-256 hashes.
+The validator checks these files together with the August release figures.
+Main Figures 3 and 4 use revised Lagrangian terminology. The historical
+`scripts/regenerate_figures_3_4_final_terminology_v2.py` uses PyMuPDF on the
+earlier PDFs. Use a separate output directory when invoking it. The submitted
+Figure 4 carries the suffix `_v2`. The submitted PDFs are the reference
+for the final artwork. Earlier coordinate sources for supplementary Figures
+S6, S7, S8, S9 and S12 are under `reproducibility/figures/source/mac_legacy/`.
+
+### Running the revision notebook with its local inputs
+
+The notebook resolves Julia includes relative to its working directory.
+From the repository root, the following Python commands assemble a fresh
+run directory next to the repository. Run these in a Python interpreter.
+
+```python
+from pathlib import Path
+from shutil import copy2
+
+repo = Path.cwd()
+run = repo.parent / "sensing-errors-notebook-run"
+run.mkdir()
+repro = repo / "reproducibility"
+for source in (repro / "src").glob("*.jl"):
+    copy2(source, run)
+copy2(repro / "provenance/mac_legacy/pcli1_pilot.jl", run)
+copy2(repro / "notebooks/revised_experiments_seven_policy_pilot_clean_v4.ipynb", run)
+copy2(repro / "data/supporting/pilot_diagnostics/five_policy_grid_s01_N100_T700_n1000_v1.csv", run)
+```
+
+Open the copied notebook with the run directory as its working directory
+and the repository-root Julia environment active. The executed cells retain
+the analyses used in the paper. Later exploratory cells also refer to older
+scratch outputs. For the published policy comparisons use the four-policy
+scenario runner and the v2 homogeneous-tie runner. The original five-policy
+smoke checkpoint supplies the reused cases for scenario 1 at N = 100.

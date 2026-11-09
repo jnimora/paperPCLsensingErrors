@@ -1,6 +1,6 @@
 paperPCLsensingErrors release validation v1
-Checks: 71
-Passed: 71
+Checks: 88
+Passed: 88
 Failed: 0
 All checks passed: true
 Raw numerical inputs modified: false

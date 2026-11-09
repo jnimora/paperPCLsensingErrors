@@ -33,7 +33,8 @@ upper bound.
 - `reproducibility/data/raw/` — immutable final raw outputs.
 - `reproducibility/data/processed/` — canonical, analysis-ready tables.
 - `reproducibility/data/checks/` — machine-readable validation results.
-- `reproducibility/figures/manuscript/` — 16 canonical manuscript figures.
+- `reproducibility/figures/manuscript/` — August release figures.
+- [Submitted figures](reproducibility/figures/submitted/) — the four main figures and twelve supplementary figures in the submitted revision. The CSV identifies each figure, page, filename, and SHA-256.
 - `reproducibility/provenance/` — hashes, environment capture, import records,
   and curation manifests.
 - `scripts/` — release validation and deterministic curation utilities.

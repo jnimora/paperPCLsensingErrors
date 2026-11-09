@@ -230,6 +230,16 @@ def main() -> int:
             row["OutputSHA256"].upper(),
         )
 
+    submitted_dir = repro / "figures" / "submitted"
+    submitted = read_csv(submitted_dir / "figures.csv")
+    expected_labels = [str(i) for i in range(1, 5)] + [f"S{i}" for i in range(1, 13)]
+    check("submitted figures", "figure labels", [r["Figure"] for r in submitted] == expected_labels,
+          [r["Figure"] for r in submitted], expected_labels)
+    for row in submitted:
+        path = submitted_dir / row["File"]
+        actual = sha256(path) if path.is_file() else "missing"
+        check("submitted figures", row["File"], actual == row["SHA256"], actual, row["SHA256"])
+
     cff_path = repo / "CITATION.cff"
     cff_text = cff_path.read_text(encoding="utf-8") if cff_path.is_file() else ""
     for expected_line in EXPECTED_CFF_FIELDS:

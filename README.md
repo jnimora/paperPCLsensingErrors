@@ -88,9 +88,9 @@ columns to `p01`, `rho`, `kappa`, and `beta`.
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. The Zenodo DOI for release
-`v1.0.0` will be added to the manuscript after the GitHub release has been
-archived.
+The submitted paper and supplement cite [the archived v1.0.0 release](https://doi.org/10.5281/zenodo.21861013). Reviewers can continue to use that DOI for the numerical results.
+
+Version 1.0.1 also includes the exact submitted figure files and supporting notebook inputs. See [all archived versions on Zenodo](https://doi.org/10.5281/zenodo.21861012) and the citation metadata in `CITATION.cff`.
 
 ## Licensing
 

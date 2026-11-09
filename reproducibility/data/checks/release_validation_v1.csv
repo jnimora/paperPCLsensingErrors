@@ -53,7 +53,7 @@ metadata,cff-version: 1.2.0,PASS,True,True,
 metadata,no .zenodo.json,PASS,False,False,CITATION.cff is intentionally the sole GitHub/Zenodo metadata file.
 metadata,repository-code: https://github.com/jnimora/paperPCLsensingErrors,PASS,True,True,
 metadata,type: software,PASS,True,True,
-metadata,version: 1.0.0,PASS,True,True,
+metadata,version: 1.0.1,PASS,True,True,
 release files,.gitattributes,PASS,True,True,
 release files,CITATION.cff,PASS,True,True,
 release files,LICENSE,PASS,True,True,

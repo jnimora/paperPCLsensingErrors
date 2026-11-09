@@ -17,7 +17,7 @@ from typing import Any
 
 EXPECTED_CFF_FIELDS = {
     "cff-version: 1.2.0",
-    'version: 1.0.0',
+    'version: 1.0.1',
     "type: software",
     "repository-code: https://github.com/jnimora/paperPCLsensingErrors",
 }

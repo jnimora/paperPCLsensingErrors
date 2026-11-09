@@ -28,8 +28,8 @@ The CC BY 4.0 license in `LICENSE-DATA` applies to:
 
 A suitable attribution is:
 
-> José Niño-Mora (2026), *Code and data for “Restless bandits with imperfect
-> binary feedback: PCL-indexability analysis and computation”*, version 1.0.0,
+> José Niño-Mora (2026), *Code and data for “Restless bandits with one-sided
+> binary feedback: PCL-indexability analysis and computation”*, version 1.0.1,
 > GitHub/Zenodo.
 
 When reusing modified data or figures, indicate that changes were made.

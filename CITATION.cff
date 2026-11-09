@@ -3,12 +3,16 @@ message: If you use this software or data, please cite the archived release usin
   file.
 title: 'Code and data for “Restless bandits with one-sided binary feedback: PCL-indexability analysis
   and computation”'
-version: 1.0.0
+version: 1.0.1
+date-released: 2026-11-09
+license:
+- MIT
+- CC-BY-4.0
 type: software
 abstract: Julia code, numerical data, notebooks, validation records, and figures supporting the study
   of restless bandits with binary latent states and one-sided binary feedback. The package includes
   broad and boundary-focused PCL tests, MP-index computations, policy comparisons, tie-breaking diagnostics,
-  and canonical manuscript figures. Mixed licensing is documented in LICENSES.md.
+  and the 16 figures used in the submitted paper and supplement. Mixed licensing is documented in LICENSES.md.
 authors:
 - given-names: José
   family-names: Niño-Mora
